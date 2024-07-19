@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #fff;
+    font-family: "Space Grotesk", sans-serif;
+    height: 100vh;
+
+   
+}
+
+.container {
+    text-align: center;
+    margin-top: 3%;
+}
+
+header{
+    margin-bottom: 5%;
+}
+.title{
+    font-weight: 300;
+    font-size: 60px;
+    text-align: center;
+}
+.logo {
+    width: 100px; /* Adjust as needed */
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.highlight {
+    color: #00ff00; 
+    font-weight: 700;/* Bright green color */
+}
+
+.factory-image {
+    margin-top: 30px;
+}
+
+.factory-image img {
+    width: full; 
+    height: auto;/* Adjust as needed */
+}
+
+/* Additional styles to match the design */
+@media (max-width:768px) {
+    .logo{
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 20%;
+    }
+
+    .title{
+        font-size: 35px;
+        margin-bottom: 20%;
+    }
+
+    .factory-image img {
+        width: 400px; 
+        height: auto;/* Adjust as needed */
+    }
+
+
+    
+}
